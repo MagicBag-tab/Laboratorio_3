@@ -8,4 +8,11 @@ public class Concesionario {
     private ArrayList<Auto> autos;
     private ArrayList<Motocicleta> motos;
     private ArrayList<Camion> camiones;
+
+    public Concesionario() {
+        this.autos = new ArrayList<>();
+        this.motos = new ArrayList<>();
+        this.camiones = new ArrayList<>();
+    }
+
 }
