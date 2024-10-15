@@ -36,4 +36,9 @@ public class Motocicleta extends Vehiculo {
                 '}';
     }
 
+    @Override
+    public String toCSV() {
+        return super.toCSV() + "," + tipoMoto + "," + sizeRuedas;
+    }
+
 }

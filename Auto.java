@@ -43,4 +43,9 @@ public class Auto extends Vehiculo {
                 '}';
     }
 
+    @Override
+    public String toCSV() {
+        return super.toCSV() + "," + numeroPuertas + "," + sizeRuedas + "," + capacidadMaletero;
+    }
+
 }

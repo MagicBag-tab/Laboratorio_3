@@ -79,4 +79,10 @@ public class Vehiculo {
                 '}';
     }
 
+    public String toCSV() {
+        return placa + "," + marca + "," + modelo + "," + year + "," +
+                capacidadMotor + "," + capacidadTanque + "," + velocidadMax + "," +
+                transmision + "," + price + "," + estado;
+    }
+
 }

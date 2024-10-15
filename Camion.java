@@ -41,4 +41,9 @@ public class Camion extends Vehiculo {
                 ", sizeRuedas=" + sizeRuedas +
                 '}';
     }
+
+    @Override
+    public String toCSV() {
+        return super.toCSV() + "," + capacidadCarga + "," + numeroEjes + "," + sizeRuedas;
+    }
 }
